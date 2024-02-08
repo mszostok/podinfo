@@ -4,7 +4,7 @@ metadata:
   name: podinfo
 spec:
   minReadySeconds: 3
-  revisionHistoryLimit: 5
+  revisionHistoryLimit: 55
   progressDeadlineSeconds: 60
   strategy:
     rollingUpdate:
